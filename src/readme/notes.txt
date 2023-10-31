@@ -1,0 +1,33 @@
+1) Install Redux and Redux Toolkit = $ npm install @redux/toolkit react-Redux
+
+2) Create a redux folder inside src.
+
+3) Inside redux folder create store.js . 
+
+4) The store is nothing but container. It is Immutable.
+
+5) The Basic syntax of store is we need to import configureStore from redux/toolkit . Then store it into store variable . And inside that register all the reducers.Also export the store.
+
+6) Then inside the root folder of application (generally App.js) import store from '../store' and Provider from react-redux.
+
+7) Wrap the whole App.js inside Provider and pass the store to Provider.
+
+8) Create folder inside modules inside the perticular folder we will create slice of that folder . Normally the naming convention for Slice will be folder name then Slice in camel case.
+
+9) Inside Slice need to import {createSlice} from redux/toolkit.
+
+10)Store the initialState in a variable named as initialState.
+
+11)create a object createSlice and assign to in createSlice. Export it also.
+
+12)Inside createSlice write the name of slice , initialState and reducers.
+
+13)Store all the reducers in the reducers object.(using state and action)
+
+14)Export all the reducers and assign them createSlice.action
+
+15)Also export Slice like sliceName.reducer.
+
+16)Import the slice in Store.js
+
+17)Inside reducer register it.

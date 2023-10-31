@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "ReduxTKTutorial",
+    "slug": "ReduxTKTutorial",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "ReduxTKTutorial"
+}
